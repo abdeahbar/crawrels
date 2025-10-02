@@ -1,0 +1,46 @@
+# Default configuration for the file scraper
+output_dir = "downloads"
+logs_dir = "logs"
+state_path = "crawl_state.json"
+report_path = "report.json"
+user_agent = "SimpleFileScraper/1.0 (+contactexample.com)"
+manifest_path = "downloads_manifest.json"
+links_report_path = "links_by_depth.json"
+default_rate_limit = 2.0
+default_max_workers = 16
+default_download_workers = 20
+request_timeout = 20.0
+retry_attempts = 3
+retry_backoff_factor = 0.8
+allowed_content_types = ["text/html", "application/xhtml+xml"]
+target_extensions = [
+  ".pdf",
+  ".zip",
+  ".rar",
+  ".7z",
+  ".tar",
+  ".tar.gz",
+  ".doc",
+  ".docx",
+  ".docm",
+  ".xls",
+  ".xlsx",
+  ".xlsm",
+  ".csv",
+  ".ppt",
+  ".pptx",
+  ".pptm",
+  ".txt",
+  ".rtf",
+  ".jpg",
+  ".jpeg",
+  ".png",
+  ".gif",
+  ".bmp",
+  ".svg",
+  ".webp",
+  ".tif",
+  ".tiff"
+]
+include_patterns = []
+exclude_patterns = []

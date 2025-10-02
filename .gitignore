@@ -1,0 +1,46 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs and reports
+logs/
+*.log
+crawl_state.json
+downloads_manifest.json
+links_by_depth.json
+report.json
+
+# Downloaded data
+downloads/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sw?
+
+# Environment files
+.env
+.env.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
